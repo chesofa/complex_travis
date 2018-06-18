@@ -2,9 +2,9 @@
 #include "complex.hpp"
 
 SCENARIO("complex new without param","[new without param]"){
-    Complex complex;
-    REQUIRE(complex.real() == 0);
-    REQUIRE(complex.imaginary() == 0);
+     Complex complex;
+     REQUIRE(complex.real() == 0);
+     REQUIRE(complex.imaginary() == 0);
 }
 
 SCENARIO("complex new with pram","[new with param]"){
